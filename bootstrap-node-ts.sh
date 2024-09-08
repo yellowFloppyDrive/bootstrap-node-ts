@@ -14,6 +14,11 @@ cd $project
 mkdir src
 touch src/main.ts
 
+cat << EOF > .gitignore
+node_modules
+build
+EOF
+
 cat << EOF > package.json
 {
   "name": "$project",
