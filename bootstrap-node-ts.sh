@@ -42,13 +42,13 @@ npm i -D typescript @types/node ts-node nodemon rimraf
 cat << EOF > tsconfig.json
 {
   "compilerOptions": {
-    "target": "es5",                          
-    "module": "commonjs",                    
-    "lib": ["es6"],                     
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6"],
     "allowJs": true,
-    "outDir": "build",                          
+    "outDir": "build",
     "rootDir": "src",
-    "strict": true,         
+    "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true
